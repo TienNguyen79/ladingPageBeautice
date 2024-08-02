@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.bg-footer {
+  background-image: url("../public/bg/FooterBG.png");
+  background-size: cover; /* Điều chỉnh kích thước hình ảnh để phủ kín toàn bộ màn hình */
+  background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+  min-height: 648px;
+  width: 100%;
+}
+
+.bg-silder {
+  background-image: url("../public/bg/bg1.png");
+  background-size: cover; /* Điều chỉnh kích thước hình ảnh để phủ kín toàn bộ màn hình */
+  background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+  height: 743px;
+  max-width: 1266px;
+}
+
+.bg-silderContact {
+  background-image: url("../public/bg/bg3.png");
+  background-size: cover; /* Điều chỉnh kích thước hình ảnh để phủ kín toàn bộ màn hình */
+  background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+  max-height: 929px;
+  min-width: 1175px;
+}
+
+.bg-mid {
+  background-image: url("../public/bg/bg2.png");
+  background-size: cover; /* Điều chỉnh kích thước hình ảnh để phủ kín toàn bộ màn hình */
+  background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+  max-height: 883px;
+  max-width: 959px;
+}
+.ok {
+  font-size: 50px;
+}
